@@ -1,0 +1,44 @@
+/* Reset / Base styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+/* Headings */
+h2 {
+  margin: 0 0 10px;
+}
+
+/* Paragraphs */
+p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Form inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Labels */
+label {
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+}
+
+/* Reusable container for forms */
+.container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+}

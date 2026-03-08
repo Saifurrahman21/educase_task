@@ -1,0 +1,106 @@
+/* Page background */
+.account-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile card */
+.account-card {
+  width: 360px; /* same as login */
+  height: 640px; /* same as login */
+  background: #f7f7f7;
+
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.account-header {
+  padding: 16px 18px;
+  border-bottom: 1px solid #eee;
+  background: #ffffff;
+}
+
+.account-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Profile row */
+.profile-row {
+  display: flex;
+  gap: 12px;
+  padding: 16px 18px;
+  align-items: center;
+}
+
+/* Avatar */
+.avatar-wrap {
+  position: relative;
+  width: 56px;
+  height: 56px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Purple badge */
+.avatar-wrap::after {
+  content: "";
+  position: absolute;
+  right: -2px;
+  bottom: 2px;
+  width: 14px;
+  height: 14px;
+  background: #6c63ff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+/* Name & email */
+.profile-info h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.profile-info p {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Description */
+.account-desc {
+  padding: 0 18px 14px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Dashed divider top */
+.dashed-line {
+  border-top: 1px dashed #cfcfcf;
+}
+
+/* Dashed divider bottom */
+.dashed-line-bottom {
+  border-bottom: 1px dashed #cfcfcf;
+  margin: 30px 0;
+}
+
+/* Bottom space */
+.account-space {
+  flex: 1;
+}
